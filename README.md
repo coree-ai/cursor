@@ -21,7 +21,7 @@ requires two manual steps.
   "mcpServers": {
     "coree": {
       "command": "npx",
-      "args": ["--yes", "@coree-ai/coree@0.13.0", "serve"]
+      "args": ["--yes", "@coree-ai/coree@0.14.1", "serve"]
     }
   }
 }
@@ -54,7 +54,7 @@ If you use coree's remote sync (Turso), add env vars to the MCP config:
   "mcpServers": {
     "coree": {
       "command": "npx",
-      "args": ["--yes", "@coree-ai/coree@0.13.0", "serve"],
+      "args": ["--yes", "@coree-ai/coree@0.14.1", "serve"],
       "env": {
         "COREE__MEMORY__REMOTE_AUTH_TOKEN": "your-token",
         "COREE__MEMORY__REMOTE_URL": "libsql://your-db.turso.io"
